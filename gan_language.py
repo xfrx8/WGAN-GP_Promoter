@@ -296,7 +296,7 @@ for iteration in range(ITERS):
             lm = language_helpers.NgramLanguageModel(i+1, samples, tokenize=False)
             lib.plot.plot('js{}'.format(i+1), lm.js_with(true_char_ngram_lms[i]))
 
-        with open('samples_{}.txt'.format(iteration), 'w') as f:
+        with open('samples/samples_{}.txt'.format(iteration), 'w') as f:
             for s in samples:
                 s = "".join(s)
                 f.write(s + "\n")
