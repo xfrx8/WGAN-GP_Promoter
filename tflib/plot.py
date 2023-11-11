@@ -32,10 +32,10 @@ def flush():
 		plt.plot(x_vals, y_vals)
 		plt.xlabel('iteration')
 		plt.ylabel(name)
-		plt.savefig(name.replace(' ', '_')+'.jpg')
+		plt.savefig('output/' + name.replace(' ', '_')+'.jpg')
 
 	print(("iter {}\t{}".format(_iter[0], "\t".join(prints))))
 	_since_last_flush.clear()
 
-	with open('log.pkl', 'wb') as f:
+	with open('output/log.pkl', 'wb') as f:
 		pickle.dump(dict(_since_beginning), f, pickle.HIGHEST_PROTOCOL)
