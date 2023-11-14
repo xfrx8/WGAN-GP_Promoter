@@ -92,7 +92,7 @@ def load_dataset(max_length, max_n_examples, tokenize=False, max_vocab_size=2048
 
     finished = False
 
-    path = data_dir+("/Promoter1.txt")
+    path = data_dir+("/Promoter.txt")
     with open(path, 'r') as f:
             for line in f:
                 line = line[:-1]
