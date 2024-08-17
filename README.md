@@ -1,6 +1,7 @@
+以下是为该项目编写的简要README介绍：
 
+---
 
-```markdown
 # WGAN-GP for Promoter Prediction
 
 This repository contains the implementation of a **Wasserstein Generative Adversarial Network with Gradient Penalty (WGAN-GP)** for the task of promoter prediction in genomic sequences. Promoters are DNA sequences that initiate the transcription of a particular gene, and accurately predicting their location is a crucial task in genomics.
@@ -54,6 +55,7 @@ Contributions are welcome! If you find a bug or have a feature request, please o
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-```
 
-This markdown format is ready to be used as a README file for the project on GitHub.
+---
+
+This README provides a structured and logical introduction to the project, guiding users on how to understand, install, and utilize the code effectively.
